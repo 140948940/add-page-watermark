@@ -99,14 +99,14 @@ export const sharedConfig = defineConfig({
         icon: 'github',
         link: 'https://github.com/140948940/watermark-page',
       },
-      {
-        icon: getIcon("https://t7.baidu.com/it/u=3297880991,3632319069&fm=74&app=80&size=f256,256&n=0&f=JPEG&fmt=auto?sec=1678554000&t=0ffd5794ff2511d0a99fc340854b4aea","gitee"),
-        link: '',
-      },
+      // {
+      //   icon: getIcon("https://t7.baidu.com/it/u=3297880991,3632319069&fm=74&app=80&size=f256,256&n=0&f=JPEG&fmt=auto?sec=1678554000&t=0ffd5794ff2511d0a99fc340854b4aea","gitee"),
+      //   link: '',
+      // },
     ],
 
     footer: {
-      copyright: 'Copyright © 2014-present Evan You, Eduardo San Martin Morote',
+      copyright: 'Copyright © 2023-present A SOUL',
       message: 'Released under the MIT License.',
     },
 
