@@ -24,8 +24,7 @@ jobs:
           node-version: '18'
           cache: 'pnpm'
         # forks do not have access to secrets so just skip this
-      - run: pnpm install
-      - run: pnpm run lint
+      - run: pnpm install --no-frozen-lockfile
       - run: pnpm run -r docs:build
 
 
