@@ -38,12 +38,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuejs/router.git"
+    "url": "git+https://github.com/140948940/watermark-page.git"
   },
   "bugs": {
-    "url": "https://github.com/vuejs/router/issues"
+    "url": "https://github.com/140948940/watermark-page/issues"
   },
-  "homepage": "https://github.com/vuejs/router#readme",
+  "homepage": "https://github.com/140948940/watermark-page#readme",
   "files": [
     "index.js",
     "dist/*.{js,cjs,mjs}",
