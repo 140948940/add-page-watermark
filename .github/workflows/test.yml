@@ -23,8 +23,6 @@ jobs:
         with:
           node-version: '18'
           cache: 'pnpm'
-      - name: 'BrowserStack Env Setup'
-        uses: 'browserstack/github-actions/setup-env@master'
         # forks do not have access to secrets so just skip this
       - run: pnpm install
       - run: pnpm run lint
