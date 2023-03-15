@@ -1,12 +1,34 @@
+// 轻量级的命令行参数解析引擎
 import minimist from 'minimist'
+
+/** nodejs模块——fs模块：fs模块用于对系统文件及目录进行读写操作 */
 import _fs from 'fs'
+/* nodejs模块：提供文件路径相关api */
 import { join, resolve, dirname } from 'path'
+// url解析
 import { fileURLToPath } from 'url'
+// console样式
 import chalk from 'chalk'
+
+/**
+ * Semantic Version 版本命名规范，提供以下等功能
+ * 1. 比较两个版本号的大小
+ * 2. 验证某个版本号是否合法
+ * 3. 提取版本号，例如从“=v1.2.1”体取出"1.2.1"
+ * 4.分析版本号是否属于某个范围或符合一系列条件
+ */
 import semver from 'semver'
+/**
+ * enquirer: 用户友好、直观且易于创建的时尚CLI提示。
+ * CLI（command-line interface，命令行界面）是指可在用户提示符下键入可执行指令的界面
+ */
 import enquirer from 'enquirer'
+
+/* 用于执行外部程序 例如：git */
 import { execa } from 'execa'
+// 串联执行promise
 import pSeries from 'p-series'
+// 
 import { globby } from 'globby'
 
 const { prompt } = enquirer
