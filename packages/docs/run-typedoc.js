@@ -7,5 +7,5 @@ createTypeDocApp({
   // entryPointStrategy: 'packages',
   githubPages: false,
   disableSources: true,
-  entryPoints: [path.resolve(__dirname, '../watermark-page/src/index.ts')],
+  entryPoints: [path.resolve(__dirname, '../add-page-watermark/src/index.ts')],
 }).build()

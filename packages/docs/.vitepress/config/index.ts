@@ -6,12 +6,12 @@ import { fileURLToPath} from 'node:url'
 
 export default defineConfig({
   ...sharedConfig,
-  base:'/watermark-page/',
+  base:'/add-page-watermark/',
   vite:{
     resolve: {
       alias: {
         // '@': fileURLToPath(new URL('./src', import.meta.url)),
-        'watermark-page': fileURLToPath(new URL('../../../watermark-page/src', import.meta.url)),
+        'add-page-watermark': fileURLToPath(new URL('../../../add-page-watermark/src', import.meta.url)),
       },
     },
   },

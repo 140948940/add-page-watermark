@@ -1,4 +1,4 @@
-export type WatermarkPageOptionsType={
+export type AddPageWatermarkOptionsType={
     /**
    * 绘制文本的 x 坐标位置
    */
@@ -33,11 +33,11 @@ export type WatermarkPageOptionsType={
   cansTextMaxWidth?:number
 
 }
-export class WatermarkPage {
+export class AddPageWatermark {
   /**
    * 水印默认配置
    */ 
-  static normalWatermarkPageOption:Required<WatermarkPageOptionsType>={
+  static normalAddPageWatermarkOption:Required<AddPageWatermarkOptionsType>={
     xIndex:15,
     yIndex:100,
     xInterval:25,
@@ -58,7 +58,7 @@ export class WatermarkPage {
   /**
    * 水印配置
    */
-  public options:Required<WatermarkPageOptionsType>
+  public options:Required<AddPageWatermarkOptionsType>
   /**生成的水印元素id */
   private id:string
   /**
@@ -69,11 +69,11 @@ export class WatermarkPage {
    * @param options  水印配置
    * @param container  加入水印的容器
   */
-  constructor(options:WatermarkPageOptionsType, container:HTMLElement) {
+  constructor(options:AddPageWatermarkOptionsType, container:HTMLElement) {
     this.container = container
-    this.options = Object.assign(WatermarkPage.normalWatermarkPageOption,options||{})
-    this.id= 'watermarkpage___'+WatermarkPage.watermarkId
-    WatermarkPage.watermarkId++
+    this.options = Object.assign(AddPageWatermark.normalAddPageWatermarkOption,options||{})
+    this.id= 'watermarkpage___'+AddPageWatermark.watermarkId
+    AddPageWatermark.watermarkId++
   }
   private setWatermark(textArr:string[]|string) {
     const options=this.options
@@ -170,5 +170,5 @@ export class WatermarkPage {
   }
 }
 
-export default WatermarkPage
+export default AddPageWatermark
 

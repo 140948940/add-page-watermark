@@ -20,4 +20,4 @@ jobs:
         with:
           tag_name: ${{ github.ref }}
           body: |
-            Please refer to [CHANGELOG.md](https://github.com/140948940/watermark-page/blob/main/packages/router/CHANGELOG.md) for details.
+            Please refer to [CHANGELOG.md](https://github.com/140948940/add-page-watermark/blob/main/packages/router/CHANGELOG.md) for details.

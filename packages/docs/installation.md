@@ -3,7 +3,7 @@
 
 ## Direct Download / CDN
 
-[https://unpkg.com/vue-router@4](https://unpkg.com/vue-router@4)
+[https://unpkg.com/add-page-watermark](https://unpkg.com/add-page-watermark)
 
 <!--email_off-->
 
@@ -14,11 +14,11 @@
 ## npm
 
 ```bash
-npm install vue-router@4
+npm install add-page-watermark
 ```
 
 ## yarn
 
 ```bash
-yarn add vue-router@4
+yarn add add-page-watermark
 ```

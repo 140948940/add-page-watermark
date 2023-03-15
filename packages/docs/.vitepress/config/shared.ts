@@ -97,7 +97,7 @@ export const sharedConfig = defineConfig({
       // { icon: 'twitter', link: 'https://twitter.com/posva' },
       {
         icon: 'github',
-        link: 'https://github.com/140948940/watermark-page',
+        link: 'https://github.com/140948940/add-page-watermark',
       },
       // {
       //   icon: getIcon("https://t7.baidu.com/it/u=3297880991,3632319069&fm=74&app=80&size=f256,256&n=0&f=JPEG&fmt=auto?sec=1678554000&t=0ffd5794ff2511d0a99fc340854b4aea","gitee"),
@@ -111,7 +111,7 @@ export const sharedConfig = defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/140948940/watermark-page/edit/main/packages/docs/:path',
+      pattern: 'https://github.com/140948940/add-page-watermark/edit/main/packages/docs/:path',
       text: 'Suggest changes',
     },
 

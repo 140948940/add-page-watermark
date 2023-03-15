@@ -10,12 +10,12 @@
 
 <script lang="ts">
 	import { defineComponent, ref } from 'vue'
-	import WatermarkPage from 'watermark-page'
+	import AddPageWatermark from 'add-page-watermark'
 	const useWatermark = () => {
 		const watermark1 = ref(null)
-		let watermark1Instance: WatermarkPage
+		let watermark1Instance: AddPageWatermark
 		const handleWatermarkAdd1 = () => {
-			watermark1Instance = new WatermarkPage({}, watermark1.value)
+			watermark1Instance = new AddPageWatermark({}, watermark1.value)
 			console.log(watermark1Instance)
 			watermark1Instance.set('aaaa')
 		}

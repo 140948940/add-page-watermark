@@ -1,5 +1,5 @@
 {
-  "include": ["../watermark-page/src/global.d.ts", "../watermark-page/src/**/*.ts"],
+  "include": ["../add-page-watermark/src/global.d.ts", "../add-page-watermark/src/**/*.ts"],
   "exclude": ["../*/__tests__/**/*.ts", "**/*.spec.ts"],
   "compilerOptions": {
     "baseUrl": ".",
@@ -8,7 +8,7 @@
     "sourceMap": false,
     "noEmit": true,
     "paths": {
-      "watermark-page": ["../watermark-page/src"]
+      "add-page-watermark": ["../add-page-watermark/src"]
     },
 
     "target": "esnext",
