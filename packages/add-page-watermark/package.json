@@ -1,8 +1,12 @@
 {
   "name": "add-page-watermark",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "为html元素一键生产水印",
-  "keywords": ["水印", "html", "canvas"],
+  "keywords": [
+    "水印",
+    "html",
+    "canvas"
+  ],
   "main": "index.js",
   "unpkg": "dist/add-page-watermark.global.js",
   "jsdelivr": "dist/add-page-watermark.global.js",
@@ -69,8 +73,7 @@
     "tags": "vetur/tags.json",
     "attributes": "vetur/attributes.json"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@microsoft/api-extractor": "^7.34.4",
     "@rollup/plugin-alias": "^4.0.3",
