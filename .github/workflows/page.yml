@@ -1,5 +1,6 @@
 name: page
 
+#在代码push到main分支执行
 on:
   workflow_dispatch: {}
   push:
@@ -7,6 +8,7 @@ on:
       - main
 jobs:
   build:
+  #使用ubuntu系统
     runs-on: ubuntu-latest
     permissions:
       pages: write
