@@ -1,4 +1,4 @@
-name: test
+name: page
 
 on:
   workflow_dispatch: {}
