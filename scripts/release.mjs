@@ -348,6 +348,7 @@ async function publishPackage(pkg) {
  *
  * @returns {Promise<{ name: string; path: string; pkg: any; version: string }[]}
  */
+// 获取有过变化的Package
 async function getChangedPackages() {
   let lastTag
 
@@ -375,6 +376,7 @@ async function getChangedPackages() {
       if (!(await fs.lstat(folder)).isDirectory()) return null
 
       const pkg = JSON.parse(await fs.readFile(join(folder, 'package.json')))
+      // 如果包不是私有包
       if (!pkg.private) {
         const { stdout: hasChanges } = await run(
           'git',

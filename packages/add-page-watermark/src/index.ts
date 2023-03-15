@@ -33,6 +33,7 @@ export type AddPageWatermarkOptionsType={
   cansTextMaxWidth?:number
 
 }
+// 测试变动
 export class AddPageWatermark {
   /**
    * 水印默认配置
