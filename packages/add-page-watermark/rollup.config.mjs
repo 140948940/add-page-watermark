@@ -28,7 +28,7 @@ const outputConfigs = {
     format: `es`,
   },
   cjs: {
-    file: 'dist/watermark-page.cjs',
+    file: 'dist/add-page-watermark.cjs',
     format: `cjs`,
   },
   global: {
@@ -36,19 +36,19 @@ const outputConfigs = {
     format: `iife`,
   },
   browser: {
-    file: 'dist/watermark-page.esm-browser.js',
+    file: 'dist/add-page-watermark.esm-browser.js',
     format: `es`,
   },
 }
 
 const stubs = {
-  'dist/watermark-page.cjs': 'watermark-page.cjs.js',
-  'dist/watermark-page.mjs': 'watermark-page.esm-bundler.js',
-  'dist/watermark-page.prod.cjs': 'watermark-page.cjs.prod.js',
+  'dist/add-page-watermark.cjs': 'add-page-watermark.cjs.js',
+  'dist/add-page-watermark.mjs': 'add-page-watermark.esm-bundler.js',
+  'dist/add-page-watermark.prod.cjs': 'add-page-watermark.cjs.prod.js',
 }
 
 const packageBuilds = Object.keys(outputConfigs)
-// in watermark-page there are not that many
+// in add-page-watermark there are not that many
 const packageConfigs = packageBuilds.map(buildName =>
   createConfig(buildName, outputConfigs[buildName])
 )
@@ -85,7 +85,7 @@ function createConfig(buildName, output, plugins = []) {
   const isNodeBuild = output.file.includes('.node.') || buildName === 'cjs'
   const isBundlerESMBuild = buildName === 'mjs'
 
-  if (isGlobalBuild) output.name = 'WatermarkPage'
+  if (isGlobalBuild) output.name = 'AddPageWatermark'
 
   const shouldEmitDeclarations = !hasTSChecked
 

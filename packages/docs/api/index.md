@@ -4,21 +4,21 @@ API Documentation
 
 ## Classes %{#Classes}%
 
-- [WatermarkPage](classes/WatermarkPage.md)
+- [AddPageWatermark](classes/AddPageWatermark.md)
 
 ## References %{#References}%
 
 ### default %{#References-default}%
 
-Renames and re-exports [WatermarkPage](classes/WatermarkPage.md)
+Renames and re-exports [AddPageWatermark](classes/AddPageWatermark.md)
 
 ## Type Aliases %{#Type-Aliases}%
 
-### WatermarkPageOptionsType %{#Type-Aliases-WatermarkPageOptionsType}%
+### AddPageWatermarkOptionsType %{#Type-Aliases-AddPageWatermarkOptionsType}%
 
-Ƭ **WatermarkPageOptionsType**: `Object`
+Ƭ **AddPageWatermarkOptionsType**: `Object`
 
-#### Type declaration %{#Type-Aliases-WatermarkPageOptionsType-Type-declaration}%
+#### Type declaration %{#Type-Aliases-AddPageWatermarkOptionsType-Type-declaration}%
 
 | Name | Type | Description |
 | :------ | :------ | :------ |

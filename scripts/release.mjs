@@ -233,7 +233,7 @@ async function main() {
   let versionsToPush = []
   for (const pkg of pkgWithVersions) {
     const tagName =
-      pkg.name === 'watermark-page'
+      pkg.name === 'add-page-watermark'
         ? `v${pkg.version}`
         : `${pkg.name}@${pkg.version}`
     versionsToPush.push(`refs/tags/${tagName}`)

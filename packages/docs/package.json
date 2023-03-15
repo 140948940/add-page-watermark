@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "vitepress": "1.0.0-alpha.48",
-    "watermark-page": "workspace:*"
+    "add-page-watermark": "workspace:*"
   },
   "volta": {
     "node": "16.5.0",

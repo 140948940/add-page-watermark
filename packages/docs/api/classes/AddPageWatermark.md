@@ -2,21 +2,21 @@
 editLink: false
 ---
 
-[API Documentation](../index.md) / WatermarkPage
+[API Documentation](../index.md) / AddPageWatermark
 
-# Class: WatermarkPage
+# Class: AddPageWatermark
 
 ## Constructors %{#Constructors}%
 
 ### constructor %{#Constructors-constructor}%
 
-• **new WatermarkPage**(`options`, `container`)
+• **new AddPageWatermark**(`options`, `container`)
 
 #### Parameters %{#Constructors-constructor-Parameters}%
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `options` | [`WatermarkPageOptionsType`](../index.md#watermarkpageoptionstype) | 水印配置 |
+| `options` | [`AddPageWatermarkOptionsType`](../index.md#addpagewatermarkoptionstype) | 水印配置 |
 | `container` | `HTMLElement` | 加入水印的容器 |
 
 ## Properties %{#Properties}%
@@ -39,7 +39,7 @@ ___
 
 ### options %{#Properties-options}%
 
-• **options**: `Required`<[`WatermarkPageOptionsType`](../index.md#watermarkpageoptionstype)\>
+• **options**: `Required`<[`AddPageWatermarkOptionsType`](../index.md#addpagewatermarkoptionstype)\>
 
 水印配置
 
@@ -53,9 +53,9 @@ ___
 
 ___
 
-### normalWatermarkPageOption %{#Properties-normalWatermarkPageOption}%
+### normalAddPageWatermarkOption %{#Properties-normalAddPageWatermarkOption}%
 
-▪ `Static` **normalWatermarkPageOption**: `Required`<[`WatermarkPageOptionsType`](../index.md#watermarkpageoptionstype)\>
+▪ `Static` **normalAddPageWatermarkOption**: `Required`<[`AddPageWatermarkOptionsType`](../index.md#addpagewatermarkoptionstype)\>
 
 水印默认配置
 

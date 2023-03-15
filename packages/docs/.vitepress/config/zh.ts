@@ -16,7 +16,7 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 
   themeConfig: {
     editLink: {
-      pattern: 'https://github.com/140948940/watermark-page/edit/main/packages/docs/:path',
+      pattern: 'https://github.com/140948940/add-page-watermark/edit/main/packages/docs/:path',
       text: '对本页提出修改建议',
     },
 
@@ -38,11 +38,11 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
       //   items: [
       //     {
       //       text: 'Discussions',
-      //       link: 'https://github.com/140948940/watermark-page/discussions',
+      //       link: 'https://github.com/140948940/add-page-watermark/discussions',
       //     },
       //     {
       //       text: '更新日志',
-      //       link: 'https://github.com/140948940/watermark-page/blob/main/packages/router/CHANGELOG.md',
+      //       link: 'https://github.com/140948940/add-page-watermark/blob/main/packages/router/CHANGELOG.md',
       //     },
       //   ],
       // },
@@ -52,7 +52,7 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
       '/api/': [
         {
           text: 'packages',
-          items: [{ text: 'watermark-page', link: '/api/' }],
+          items: [{ text: 'add-page-watermark', link: '/api/' }],
         },
       ],
 

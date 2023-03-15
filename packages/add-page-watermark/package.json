@@ -1,11 +1,13 @@
 {
-  "name": "watermark-page",
-  "version": "1.0.0",
+  "name": "add-page-watermark",
+  "version": "1.0.1",
+  "description": "为html元素一键生产水印",
+  "keywords": ["水印", "html", "canvas"],
   "main": "index.js",
-  "unpkg": "dist/watermark-page.global.js",
-  "jsdelivr": "dist/watermark-page.global.js",
-  "module": "dist/watermark-page.mjs",
-  "types": "dist/watermark-page.d.ts",
+  "unpkg": "dist/add-page-watermark.global.js",
+  "jsdelivr": "dist/add-page-watermark.global.js",
+  "module": "dist/add-page-watermark.mjs",
+  "types": "dist/add-page-watermark.d.ts",
   "volta": {
     "node": "18.15.0",
     "pnpm": "7.29.1"
@@ -13,20 +15,20 @@
   "type": "module",
   "exports": {
     ".": {
-      "types": "./dist/watermark-page.d.ts",
+      "types": "./dist/add-page-watermark.d.ts",
       "node": {
         "import": {
-          "production": "./dist/watermark-page.node.mjs",
-          "development": "./dist/watermark-page.node.mjs",
-          "default": "./dist/watermark-page.node.mjs"
+          "production": "./dist/add-page-watermark.node.mjs",
+          "development": "./dist/add-page-watermark.node.mjs",
+          "default": "./dist/add-page-watermark.node.mjs"
         },
         "require": {
-          "production": "./dist/watermark-page.prod.cjs",
-          "development": "./dist/watermark-page.cjs",
+          "production": "./dist/add-page-watermark.prod.cjs",
+          "development": "./dist/add-page-watermark.cjs",
           "default": "./index.js"
         }
       },
-      "import": "./dist/watermark-page.mjs",
+      "import": "./dist/add-page-watermark.mjs",
       "require": "./index.js"
     },
     "./dist/*": "./dist/*",
@@ -38,16 +40,16 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/140948940/watermark-page.git"
+    "url": "git+https://github.com/140948940/add-page-watermark.git"
   },
   "bugs": {
-    "url": "https://github.com/140948940/watermark-page/issues"
+    "url": "https://github.com/140948940/add-page-watermark/issues"
   },
-  "homepage": "https://github.com/140948940/watermark-page#readme",
+  "homepage": "https://github.com/140948940/add-page-watermark#readme",
   "files": [
     "index.js",
     "dist/*.{js,cjs,mjs}",
-    "dist/watermark-page.d.ts",
+    "dist/add-page-watermark.d.ts",
     "README.md"
   ],
   "scripts": {
