@@ -4,6 +4,8 @@ name: page
 on:
   workflow_dispatch: {}
   push:
+    paths:
+      - 'packages/docs/**'
     branches:
       - main
 jobs:
